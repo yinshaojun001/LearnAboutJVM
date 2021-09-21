@@ -1,4 +1,4 @@
-package com.ysj.learnjvm.firstweek.firstjvm;
+package com.X.learnjvm.firstweek.firstjvm;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -10,15 +10,16 @@ import java.lang.reflect.Method;
  2.（必做）自定义一个 Classloader，
  加载一个 Hello.xlass 文件，执行 hello 方法，
  此文件内容是一个 Hello.class 文件所有字节（x=255-x）处理后的文件。文件群里提供。
+ (参考答案)
  */
-public class YSJclassLoader extends ClassLoader {
+public class XclassLoader extends ClassLoader {
 
     public static void main(String[] args) throws Exception {
         // 相关参数
         final String className = "Hello";
         final String methodName = "hello";
         // 创建类加载器
-        ClassLoader classLoader = new YSJclassLoader();
+        ClassLoader classLoader = new XclassLoader();
         // 加载相应的类
         Class<?> clazz = classLoader.loadClass(className);
         // 看看里面有些什么方法
