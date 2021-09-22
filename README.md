@@ -1,5 +1,6 @@
 # LearnAboutJVM
 学习JVM相关
 
-![image-20210921232421010](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210921232421010.png)
 
+
+![image-20210921233355778](D:\geektime\LearnAboutJVM\image-20210921233355778.png)
